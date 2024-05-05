@@ -167,53 +167,46 @@ body {
   
 #primo{
     font-family:  "Quicksand", sans-serif;
-    margin-left: 500px;
     background-color: #312e36;
     color: #efe4fc;
-    padding: 10px;
-    border-top-left-radius: 10px;
-    
-    border-bottom-left-radius: 10px;
+    padding: 20px;
+    border-radius: 10px;
     margin-top: 100px;
+    align-items: center;
+    text-align: center;
 }
 
-#sc{
+#title{
     font-size: 22px;
     font-weight: 600;
+    text-align: center;
 }
 
 #job{
     font-size: 17px;
     font-weight: 300;
+    text-align: center;
 }
 
 
 #secondo{
     font-family: "Quicksand", sans-serif;
-    margin-right: 500px;
-    margin-left: 0;
-    padding: 10px;
+    padding: 20px;
     border-color: #0e2431;
     background-color: #f1e8fb;
     color: #28262b;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    text-align: right;
-    margin-top:20px;
-}
-
-#rec{
-    font-size: 22px;
-    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
 }
 
 aside{
-    position: relative;
-    display: flexbox;
+    align-items: center;
 }
 
   /* Stili per dispositivi mobili */
-@media only screen and (max-width: 768px) {
+  @media screen and (max-device-width: 600px) {
   aside {
     font-size: 16px; 
     margin: 0 10px; 

@@ -6,12 +6,11 @@ body{
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 150px;
-
-    background-color: #E9D9FD;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 150px;
+  background-color: #E9D9FD;
 }
 
 
@@ -22,6 +21,7 @@ footer {
     font-weight: bold;
     text-align: center;
     font-family:  "Quicksand", sans-serif;
+    word-wrap: break-word;
 }
 
 main {
@@ -144,6 +144,7 @@ body {
   padding-left: 10px;
   transition: transform 0.5s ease-in-out;
   text-align: left;
+  background-color: #E9D9FD;
 }
 
 .navbar .menu-items li {
@@ -184,10 +185,9 @@ body {
   transform: rotate(-45deg);
 }
 
-@media (orientation: portrait) {
+@media screen and (max-device-width: 600px) {
   #name {
-    max-width: 80%; 
-    margin: 0 auto; 
-    text-align: center; 
+    font-size: 40px; 
+    padding: 0 10px; 
   }
 }

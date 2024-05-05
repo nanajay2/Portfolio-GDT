@@ -167,11 +167,10 @@ body{
     font-weight: 200;
   }
 
-/* Stili per dispositivi mobili */
-@media only screen and (max-width: 768px) {
-  main{
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 62px;
+  /* Stili per dispositivi mobili */
+  @media screen and (max-device-width: 600px) {
+    main {
+      margin: 10px auto;
+      padding: auto;
+    }
   }
-}
