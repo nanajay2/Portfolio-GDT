@@ -1,29 +1,33 @@
 body{
-    background-color: #E9D9FD;
-    margin: 0;
-    padding: 0;
-    font-family:  "Quicksand", sans-serif;
+  background-color: #E9D9FD;
+  margin: 0;
+  padding: 0;
+  font-family:  "Quicksand", sans-serif;
+  padding-top: 62px;
 }
 
 
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-      font-family:  "Quicksand", sans-serif;
-  }
-  
-  .container {
-      width: 100%;
-      margin: 10px;
-  }
-  
-  .navbar {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family:  "Quicksand", sans-serif;
+}
+
+.container {
     width: 100%;
-    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
-  }
+    margin: 10px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /*box-shadow: 0 1px 4px rgb(146 161 176 / 15%); */
+  z-index: 1000; 
+}
   
   .nav-container {
     display: flex;

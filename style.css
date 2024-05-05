@@ -2,6 +2,7 @@ body{
     background-color: #E9D9FD;
     margin: 0;
     padding: 0;
+    padding-top: 62px;
 }
 
 footer {
@@ -28,22 +29,6 @@ main {
     
 }
 
-/*
-#Collapse{
-   width: 60%;
-   height: auto;
-}
-
-
-#name:hover{
-    color: #c6a2ee;
-}
-
-#name:active{
-    color: #c6a2ee;
-}
-*/
-
 
 * {
   margin: 0;
@@ -60,8 +45,11 @@ body {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
   width: 100%;
-  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  /*box-shadow: 0 1px 4px rgb(146 161 176 / 15%); */
+  z-index: 1000; 
 }
 
 .nav-container {
