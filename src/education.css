@@ -112,8 +112,8 @@ body {
   
   .navbar .menu-items {
     padding-top: 60px;
-    height: 100vh;
-    width: 100%;
+    height: 180px;
+    width: 20%;
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
@@ -121,6 +121,7 @@ body {
     padding-left: 10px;
     transition: transform 0.5s ease-in-out;
     text-align: left;
+    background-color: #E9D9FD;
   }
   
   .navbar .menu-items li {
@@ -166,46 +167,50 @@ body {
 /*fino a qui */
   
 #primo{
-    font-family:  "Quicksand", sans-serif;
-    margin-left: 500px;
-    background-color: #312e36;
-    color: #efe4fc;
-    padding: 10px;
-    border-top-left-radius: 10px;
-    
-    border-bottom-left-radius: 10px;
-    margin-top: 100px;
+  font-family:  "Quicksand", sans-serif;
+  background-color: #312e36;
+  color: #efe4fc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 100px;
+  align-items: center;
+  text-align: center;
 }
 
 #school{
     font-size: 22px;
     font-weight: 600;
+    text-align: center;
 }
 
 #study{
     font-size: 17px;
     font-weight: 300;
+    text-align: center;
 }
 
 
 #secondo{
-    font-family: "Quicksand", sans-serif;
-    margin-right: 500px;
-    margin-left: 0;
-    padding: 10px;
-    border-color: #0e2431;
-    background-color: #f1e8fb;
-    color: #28262b;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    text-align: right;
-    margin-top:30px;
+  font-family: "Quicksand", sans-serif;
+  padding: 20px;
+  border-color: #0e2431;
+  background-color: #f1e8fb;
+  color: #28262b;
+  border-radius: 10px;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
 }
 
 
 aside{
-    position: relative;
-    display: flexbox;
+  align-items: center;
 }
 
-  
+/* Stili per dispositivi mobili */
+@media screen and (max-device-width: 600px) {
+aside {
+  font-size: 16px; 
+  margin: 0 10px; 
+}
+}
