@@ -111,15 +111,18 @@ body{
     transition: transform 0.4s ease-in-out;
   }
   
+  .navbar .logo{
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  
   .navbar .menu-items {
     padding-top: 60px;
     height: 180px;
-    width: 20%;
+    width: 110px;
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
-    padding-left: 10px;
     transition: transform 0.5s ease-in-out;
     text-align: left;
     background-color: #E9D9FD;
@@ -174,5 +177,6 @@ body{
     main {
       margin: 10px auto;
       padding: auto;
+      font-size: 15px;
     }
   }
