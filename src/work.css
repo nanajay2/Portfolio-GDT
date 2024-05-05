@@ -212,4 +212,10 @@ aside{
     display: flexbox;
 }
 
-  
+  /* Stili per dispositivi mobili */
+@media only screen and (max-width: 768px) {
+  aside {
+    font-size: 16px; 
+    margin: 0 10px; 
+  }
+}

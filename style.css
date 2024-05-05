@@ -184,3 +184,10 @@ body {
   transform: rotate(-45deg);
 }
 
+@media (orientation: portrait) {
+  #name {
+    max-width: 80%; 
+    margin: 0 auto; 
+    text-align: center; 
+  }
+}
