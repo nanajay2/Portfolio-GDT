@@ -175,8 +175,7 @@ body{
   /* Stili per dispositivi mobili */
   @media screen and (max-device-width: 600px) {
     main {
-      margin: 10px auto;
+      margin: 15px;
       padding: auto;
-      font-size: 15px;
     }
   }
