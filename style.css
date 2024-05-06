@@ -11,6 +11,7 @@ footer {
   width: 100%;
   min-height: 150px;
   background-color: #E9D9FD;
+  align-items: center;
 }
 
 
@@ -22,7 +23,6 @@ footer {
     text-align: center;
     font-family:  "Quicksand", sans-serif;
     word-wrap: break-word;
-    margin: 10px;
 }
 
 main {
