@@ -193,15 +193,13 @@ transform: rotate(-45deg);
 #name {
   font-size: 40px; 
   padding: 0 10px; 
+  text-align: left;
 }
-  footer{
-      width: 60%;
-  }
 }
 
 @media screen and (min-device-width: 2000px) {
 #name {
-  font-size: 40px; 
+  font-size: 100px; 
   padding: 0 10px; 
 }
   footer{
